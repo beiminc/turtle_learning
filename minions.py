@@ -329,6 +329,8 @@ def draw_hair():
     
 
 def minions():
+    turtle.tracer(0)
+
     start_point()
     draw_body()
     t.penup()
@@ -373,6 +375,8 @@ def minions():
     t.pendown()
 
     draw_hair()
+
+    turtle.update()
 
     turtle.exitonclick()
 
