@@ -1,6 +1,7 @@
 from turtle import *
 
 def start():
+    hideturtle()
     speed(0)   
     pensize(5)
 
